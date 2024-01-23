@@ -7,7 +7,7 @@ import { Product } from '../model/product';
 })
 export class ProductService {
 
-  baseUrl = "http://localhost:8080"
+  baseUrl = "https://ecoms-k1f4.onrender.com"
 
   constructor(private httpClient: HttpClient) { }
 
